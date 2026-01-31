@@ -1,0 +1,25 @@
+<h1 id="result">result</h1>
+<button onclick="select1()" id="s1">John</button>
+<button onclick="select2()" id="s2">Jane</button>
+<button onclick="select3()" id="s3">Bob</button>
+
+<script>
+    var a=document.getElementById("s1");
+    var b=document.getElementById("s2");
+    var c=document.getElementById("s3");
+     var r=document.getElementById("result");
+    function select1(){
+        console.log(a.textContent);
+        r.textContent = a.textContent;
+    }
+
+    function select2(){
+        console.log(b.textContent);
+        r.textContent = b.textContent;
+    }
+
+    function select3(){
+        console.log(c.textContent);
+        r.textContent = c.textContent;
+    }
+</script>

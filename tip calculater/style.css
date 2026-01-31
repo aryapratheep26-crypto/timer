@@ -1,0 +1,45 @@
+body{
+    background-color: grey;
+    text-align: center;
+    margin-top: 150px;
+    box-shadow: 3 5 10px rgba(15, 5, 5, 0.5);
+    width:400px;
+    margin-left:6cm;
+
+    #begin
+    {
+        padding:1cm;
+    background-color: white;
+    border-radius: 10px;
+    width: 18cm;
+    height:7cm;
+    
+    }
+   #btn{
+     background-color: rgb(21, 201, 21);
+     width: 10cm;
+     height: 1cm;
+   }
+   #billAmount{
+    width: 10cm;
+   }
+   #tipPercentage{
+    width: 10cm;
+    margin-bottom: .5cm;
+   
+   }
+   #bb{
+   margin-left: -310px;
+   top: 10cm;
+   margin-bottom: 1cm;
+
+   }
+   #tt{
+    margin-left: -300px;
+    margin-bottom: 1cm;
+    top: 11cm;
+   }
+   #result{
+    margin-left: -350px;
+   }
+}

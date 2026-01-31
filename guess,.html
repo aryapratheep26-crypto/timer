@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My game</title>
+
+</head>
+<body>
+    <h1>Guess the number from 1 to 10</h1>
+    <input type="number" id="num">
+    <button onclick="check()">Check</button>
+    <p id="p">you are right/wrong</p>
+    <p id ="scoree">score:10</p>
+    <script>
+        var random=Math.floor(Math.random()*10)+1;
+        var a=document.getElementById("num");
+        var p=document.getElementById("p");
+        var scoree=document.getElementById("scoree");
+        var score=10;
+        var P=p.textContent;
+        var A=a.value;
+        function check(){
+            if(A==random){
+                console.log("You are right!");
+                p.textContent="You are right!";
+            } else {
+                Score=score-1;
+                scoree.textContent="score:"+Score;
+                console.log("You are wrong!");
+                p.textContent="You are wrong!";
+            }
+        }
+    </script>
+</body>
+</html>

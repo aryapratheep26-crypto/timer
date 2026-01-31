@@ -1,0 +1,47 @@
+body{
+    height: absolute;
+    margin: 0;
+    background-color: darkcyan;
+    background: linear-gradient(to left bottom, lightgreen, lightblue);
+    text-align: center;
+    min-height: 100vh;
+    
+    
+   .converter{
+    margin-top: 5cm;
+    width: 10cm;
+    height: 6cm;
+    margin-left: 9cm;
+    border-radius: 10px;
+    font-family: monospace;
+    color: darkgreen;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     display: grid;
+     row-gap: 18px;
+     
+   }
+   #tit{
+    margin-top:10 ;
+    display: block;
+   }
+   .converter label{
+    text-align: right;
+    font-size: 15px;
+    margin-top: 4cm;
+
+
+   }
+    .converter input{
+     width: 6cm;
+     height: 0.7cm;
+     border-radius: 5px;
+     font-size: 15px;
+     text-align: center;
+     row-gap: 100px;
+     margin-bottom: .5cm;
+    }
+    h1{
+        margin-bottom: -2px;
+    }
+   
+}

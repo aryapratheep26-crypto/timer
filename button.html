@@ -1,0 +1,10 @@
+<button onclick="change()" id="btn">change</button>
+<script>
+  var a = document.getElementById("btn");
+  const colors = ["blue", "red", "orange"];
+
+  function change(){
+    a.style.backgroundColor = colors[0];
+    colors.shift();
+  }
+</script>
