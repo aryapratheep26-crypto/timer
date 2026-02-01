@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    background: url(image.png);
+    background-size: cover;
+    color: whitesmoke;
+    margin-top: 2cm;
+    font-size: large;
+}
+
+button{
+    width: 2cm;
+    row-gap: 1cm;
+    margin-top: 0;
+}
+
+p{
+    font-size: 2cm;
+    margin-top: -1cm;
+    margin-bottom: 5px;
+}
+
+#start{
+    background-color: turquoise;
+}
+
+#reset{
+    background-color: lightcoral;
+}
+
+#stop{
+    background-color: lightgreen;
+}
+
+    body{
+        text-align: center;
+        background: url(image.png);
+        background-size: cover;
+        color: whitesmoke;
+       margin-top: 2cm;
+       font-size: large;
+       button{
+        width: 2cm;
+        row-gap: 1cm;
+        margin-top: 0;
+  }
+       p{
+        font-size: 2cm;
+        margin-top: -1cm;
+        margin-bottom: 5px;
+    
+       }
+       #start{
+        background-color:turquoise;
+       }
+         #reset{
+          background-color: lightcoral;
+         }
+            #stop{
+            background-color: lightgreen;
+            }
+}
